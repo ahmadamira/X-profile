@@ -1,0 +1,21 @@
+.ymlBox {
+  display: flex;
+
+  width: 100%;
+  color: white;
+}
+.ymllogo {
+  width: 40px;
+  height: 40px;
+  display: block;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  border-radius: 50%;
+}
+.Ymlcardcontainer {
+  display: flex;
+  margin-right: 15px;
+  justify-content: space-between;
+}

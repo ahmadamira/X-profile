@@ -1,0 +1,14 @@
+.tfycontainer {
+  color: white;
+  margin-left: 20px;
+  width: 85%;
+  background-color: rgb(39, 39, 39);
+  border-radius: 20px;
+  margin-top: 20px;
+}
+.tfyheader {
+  margin: 20px 20px;
+}
+.footer {
+  margin-left: 20px;
+}
