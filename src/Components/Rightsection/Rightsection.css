@@ -1,7 +1,7 @@
-.rightsectioncontainer {
+.rightSectionContainer {
   width: 30%;
 }
-/* SearchBar.css */
+
 .search-bar {
   margin-top: 20px;
   margin-left: 20px;
@@ -9,7 +9,7 @@
   height: 20px;
   display: flex;
   align-items: center;
-  background-color: rgb(68, 67, 67); /* Gray background color */
+  background-color: rgb(68, 67, 67);
   padding: 8px;
   border-radius: 20px;
 }

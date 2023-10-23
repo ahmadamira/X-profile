@@ -1,5 +1,6 @@
 import React from "react";
-import "./Followbutton.css";
+import "./FollowButton.css";
+
 const Followbutton = () => {
   return (
     <div>

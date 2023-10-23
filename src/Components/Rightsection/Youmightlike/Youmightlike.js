@@ -1,6 +1,6 @@
 import React from "react";
-import "./Youmightlike.css";
-import Ymlcard from "./Ymlcard/Ymlcard";
+import "./YouMightLike.css";
+import YouMightLikeCard from "./YouMightLikeCard/YouMightLikeCard";
 const data = [
   {
     img: "/imgs/freecodecamp.jpg",
@@ -18,21 +18,22 @@ const data = [
     subname: "@TailWindCSS",
   },
 ];
-const Youmightlike = () => {
+
+const YouMightLike = () => {
   return (
-    <div className="ymlcontainer">
-      <h3 className="ymlheader">You might like</h3>
+    <div className="youMightLikeContainer">
+      <h3 className="youMightLikeHeader">You might like</h3>
       {data.map((item, index) => (
-        <Ymlcard
+        <YouMightLikeCard
           key={index}
           img={item.img}
           name={item.name}
           subname={item.subname}
         />
       ))}
-      <button className="showmorebtn">Show more</button>
+      <button className="showMoreBtn">Show more</button>
     </div>
   );
 };
 
-export default Youmightlike;
+export default YouMightLike;

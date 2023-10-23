@@ -1,12 +1,13 @@
 import React from "react";
-import "./Headingsubheading.css";
-const Headingsubheading = ({ heading, sub }) => {
+import "./HeadingSubHeading.css";
+
+const HeadingSubHeading = ({ heading, sub }) => {
   return (
-    <div className="headingcontainer">
+    <div className="headingContainer">
       <spam>{heading}</spam>
       <p className="subHeading">{sub}</p>
     </div>
   );
 };
 
-export default Headingsubheading;
+export default HeadingSubHeading;

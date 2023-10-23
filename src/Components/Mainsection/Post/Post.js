@@ -6,12 +6,13 @@ import SwapCallsIcon from "@mui/icons-material/SwapCalls";
 import FavoriteBorderIcon from "@mui/icons-material/FavoriteBorder";
 import DriveFolderUploadIcon from "@mui/icons-material/DriveFolderUpload";
 import Graytext from "../Graytext/Graytext";
+
 const Post = () => {
   return (
     <div>
       <div className="postContainer">
-        <div className="flexdiv">
-          <img src="/imgs/myimg.jpg" alt="My Logo" className="postOwnerphoto" />
+        <div className="postInnerContainer">
+          <img src="/imgs/myimg.jpg" alt="My Logo" className="postOwnerPhoto" />
           <div className="postName">
             <div className="postOwner">
               <spam>Ahmad Amira</spam>

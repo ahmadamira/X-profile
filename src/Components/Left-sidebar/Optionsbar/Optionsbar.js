@@ -9,7 +9,8 @@ import BookmarkBorderIcon from "@mui/icons-material/BookmarkBorder";
 import PeopleIcon from "@mui/icons-material/People";
 import PersonIcon from "@mui/icons-material/Person";
 import MoreIcon from "@mui/icons-material/More";
-import "./Optionbar.css";
+import "./OptionBar.css";
+
 const optionsData = [
   {
     icon: <HomeIcon sx={{ color: "rgb(226, 223, 223)", height: "auto" }} />,
@@ -58,9 +59,9 @@ const optionsData = [
     name: "More",
   },
 ];
-const Optionsbar = () => {
+const OptionsBar = () => {
   return (
-    <div className="optionbarContainer">
+    <div className="optionBarContainer">
       {optionsData.map((option, index) => (
         <Option key={index} icon={option.icon} name={option.name} />
       ))}
@@ -68,4 +69,4 @@ const Optionsbar = () => {
   );
 };
 
-export default Optionsbar;
+export default OptionsBar;

@@ -1,28 +1,27 @@
 import React from "react";
-import "./Whotofollow.css";
+import "./WhoToFollow.css";
 import PersonIcon from "@mui/icons-material/Person";
 import Graytext from "../Graytext/Graytext";
-import MoreHorizIcon from "@mui/icons-material/MoreHoriz";
-import Headingsubheading from "../Headingsubheading/Headingsubheading";
-import Followbutton from "../Followbutton/Followbutton";
+import HeadingSubHeading from "../HeadingSubHeading/HeadingSubHeading";
+import FollowButton from "../FollowButton/FollowButton";
 
-const Whotofollow = ({ img, name, subname, followers, text }) => {
+const WhoToFollow = ({ img, name, subname, followers, text }) => {
   return (
     <div className="followContainer">
-      <div className="whofollows">
+      <div className="whoFollows">
         <PersonIcon sx={{ color: "rgb(95, 94, 94)" }} />
         <Graytext text={followers} />
       </div>
-      <div className="headingfollow">
+      <div className="headingFollow">
         <div className="followBox">
-          <img src={img} alt="My Logo" className="followlogo" />
-          <Headingsubheading heading={name} sub={subname} />
+          <img src={img} alt="My Logo" className="followLogo" />
+          <HeadingSubHeading heading={name} sub={subname} />
         </div>
-        <Followbutton />
+        <FollowButton />
       </div>
       <div className="followText">{text}</div>
     </div>
   );
 };
 
-export default Whotofollow;
+export default WhoToFollow;

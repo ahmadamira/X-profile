@@ -1,15 +1,16 @@
 import React from "react";
-import "./Leftsidebar.css";
+import "./LeftSidebar.css";
 import MoreHorizIcon from "@mui/icons-material/MoreHoriz";
-import Optionsbar from "./Optionsbar/Optionsbar";
-const Leftsidebar = () => {
+import OptionsBar from "./OptionsBar/OptionsBar";
+
+const LeftSidebar = () => {
   return (
     <div className="leftContainer">
       <img src="/imgs/Vector.png" alt="My Logo" className="logo" />
-      <Optionsbar />
+      <OptionsBar />
       <button className="postButton">Post</button>
       <div className="chatBox">
-        <img src="/imgs/myimg.jpg" alt="My Logo" className="profilelogo" />
+        <img src="/imgs/myimg.jpg" alt="My Logo" className="profileLogo" />
         <div className="nameContainer">
           <spam>Ahmad Amira</spam>
           <p className="subName">Ahmad Amira</p>
@@ -20,4 +21,4 @@ const Leftsidebar = () => {
   );
 };
 
-export default Leftsidebar;
+export default LeftSidebar;

@@ -1,21 +1,22 @@
 import React from "react";
-import "./Rightsection.css";
+import "./RightSection.css";
 import SearchIcon from "@mui/icons-material/Search";
-import Youmightlike from "./Youmightlike/Youmightlike";
+import YouMightLike from "./YouMightLike/YouMightLike";
 import Trendsforyou from "./Trendsforyou/Trendsforyou";
-const Rightsection = () => {
+
+const RightSection = () => {
   return (
-    <div className="rightsectioncontainer">
+    <div className="rightSectionContainer">
       <div className="search-bar">
         <button className="search-button">
           <SearchIcon sx={{ color: "rgb(95, 94, 94)" }} />
         </button>
         <input type="text" placeholder="Search" className="search-input" />
       </div>
-      <Youmightlike />
+      <YouMightLike />
       <Trendsforyou />
     </div>
   );
 };
 
-export default Rightsection;
+export default RightSection;

@@ -1,12 +1,12 @@
 import React from "react";
 import Graytext from "../../../Mainsection/Graytext/Graytext";
 import MoreHorizIcon from "@mui/icons-material/MoreHoriz";
-import Headingsubheading from "../../../Mainsection/Headingsubheading/Headingsubheading";
-import "./Tfucard.css";
-const Tfucard = () => {
+import "./TreandsForYouCard.css";
+
+const TreandsForYouCard = () => {
   return (
-    <div className="Tfrcardcontainer">
-      <div className="tfyheader">
+    <div className="treandsForYouContainer">
+      <div className="treandsForYouHeader">
         <div>
           <Graytext text="Gaming Trending" />
           <span>VALORANT champions</span>
@@ -18,4 +18,4 @@ const Tfucard = () => {
   );
 };
 
-export default Tfucard;
+export default TreandsForYouCard;

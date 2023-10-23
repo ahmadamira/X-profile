@@ -1,14 +1,15 @@
 import React from "react";
 import ArrowBackIcon from "@mui/icons-material/ArrowBack";
-import Headingsubheading from "./Headingsubheading/Headingsubheading";
+import HeadingSubHeading from "./HeadingSubHeading/HeadingSubHeading";
 import InsertLinkIcon from "@mui/icons-material/InsertLink";
 import CalendarMonthIcon from "@mui/icons-material/CalendarMonth";
 import MoreHorizIcon from "@mui/icons-material/MoreHoriz";
 import NotificationAddIcon from "@mui/icons-material/NotificationAdd";
-import "./Mainsection.css";
+import "./MainSection.css";
 import Graytext from "./Graytext/Graytext";
 import Post from "./Post/Post";
-import Whotofollow from "./Whotofollow/Whotofollow";
+import WhoToFollow from "./WhoToFollow/WhoToFollow";
+
 const data = [
   {
     img: "/imgs/freecodecamp.jpg",
@@ -32,51 +33,52 @@ const data = [
     text: "The utility-first CSS framework. Rapidly build modern websites, without ever leaving your HTML.",
   },
 ];
-const Mainsection = () => {
+
+const MainSection = () => {
   return (
-    <div className="mainsectionContainer">
+    <div className="mainSectionContainer">
       <div className="header">
         <ArrowBackIcon
           sx={{ color: "white", height: "auto", marginRight: "30px" }}
         />
-        <Headingsubheading heading="React" sub="2,611 posts" />
+        <HeadingSubHeading heading="React" sub="2,611 posts" />
       </div>
       <img
         src="/imgs/feature-react.webp"
         alt="My Logo"
-        className="prophilephoto"
+        className="profilePhoto"
       />
-      <img src="/imgs/react.png" alt="My Logo" className="reactimg" />
+      <img src="/imgs/react.png" alt="My Logo" className="reactImage" />
       <div className="belowHero">
         <div className="btnDiv">
-          <button className="navButtonicon">
+          <button className="navButtonIcon">
             <MoreHorizIcon />
           </button>
-          <button className="navButtonicon">
+          <button className="navButtonIcon">
             <NotificationAddIcon />
           </button>
-          <button className="navButtonfollow">Following</button>
+          <button className="navButtonFollow">Following</button>
         </div>
-        <Headingsubheading heading="React" sub="@Reactjs" />
+        <HeadingSubHeading heading="React" sub="@Reactjs" />
         <p>The library for web and native user interfaces</p>
-        <div className="linkanddate">
+        <div className="linkAndDate">
           <InsertLinkIcon
             sx={{ color: "rgb(95, 94, 94)", marginRight: "5px" }}
           />
-          <span className="reactlink">react.dev</span>
+          <span className="reactLink">react.dev</span>
           <CalendarMonthIcon
             sx={{ color: "rgb(95, 94, 94)", marginLeft: "25px" }}
           />
           <Graytext text=" Joined July 2013" />
         </div>
-        <div className="linkanddate">
+        <div className="linkAndDate">
           267
           <Graytext text="Following" />
           <span className="followers">708.1k</span>
           <Graytext text="Followers" />
         </div>
         <Graytext text="Followed by Kareem Kukhun ,Ahmad Amira and 14 other." />
-        <div className="navication">
+        <div className="navigation">
           <button className="postsButton">Posts</button>
           <button className="navButton">Replies</button>
           <button className="navButton">Media</button>
@@ -87,7 +89,7 @@ const Mainsection = () => {
         <hr />
         <h3>Who to follow</h3>
         {data.map((item, index) => (
-          <Whotofollow
+          <WhoToFollow
             key={index}
             img={item.img}
             name={item.name}
@@ -96,11 +98,11 @@ const Mainsection = () => {
             text={item.text}
           />
         ))}
-        <button className="showmorebtn">Show more</button>
+        <button className="showMoreBtn">Show more</button>
         <hr />
       </div>
     </div>
   );
 };
 
-export default Mainsection;
+export default MainSection;

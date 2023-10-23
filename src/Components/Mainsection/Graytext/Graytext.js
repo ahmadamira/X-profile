@@ -1,5 +1,6 @@
 import React from "react";
 import "./Graytext.css";
+
 const Graytext = ({ text }) => {
   return (
     <div>

@@ -1,15 +1,14 @@
-import logo from "./logo.svg";
 import "./App.css";
-import Leftsidebar from "./Components/Left-sidebar/Leftsidebar";
-import Mainsection from "./Components/Mainsection/Mainsection";
-import Rightsection from "./Components/Rightsection/Rightsection";
+import LeftSidebar from "./Components/Left-sidebar/LeftSidebar";
+import MainSection from "./Components/Mainsection/MainSection";
+import RightSection from "./Components/Rightsection/RightSection";
 
 function App() {
   return (
     <div className="appContainer">
-      <Leftsidebar />
-      <Mainsection />
-      <Rightsection />
+      <LeftSidebar />
+      <MainSection />
+      <RightSection />
     </div>
   );
 }

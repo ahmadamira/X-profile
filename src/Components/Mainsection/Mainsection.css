@@ -1,4 +1,4 @@
-.mainsectionContainer {
+.mainSectionContainer {
   width: 50%;
   position: relative;
   border-right: 1px solid rgb(95, 94, 94);
@@ -7,24 +7,24 @@
   display: flex;
   flex-direction: row;
 }
-.reactimg {
+.reactImage {
   width: 100%;
 }
 .belowHero {
   color: white;
   margin-left: 20px;
 }
-.linkanddate {
+.linkAndDate {
   display: flex;
   margin-bottom: 20px;
 }
-.reactlink {
+.reactLink {
   color: blue;
 }
 .followers {
   margin-left: 20px;
 }
-.navication {
+.navigation {
   display: flex;
   width: 80%;
   margin-left: 10%;
@@ -41,7 +41,7 @@
   color: rgb(95, 94, 94);
   font-size: medium;
 }
-.navButtonicon {
+.navButtonIcon {
   border: none;
   background: none;
   padding: 2px;
@@ -52,7 +52,7 @@
   border: 1px solid rgb(95, 94, 94);
   border-radius: 50%;
 }
-.navButtonfollow {
+.navButtonFollow {
   border: none;
   background: none;
   padding: 5px;
@@ -68,7 +68,7 @@
   margin-top: 20px;
   text-align: right;
 }
-.showmorebtn {
+.showMoreBtn {
   border: none;
   background: none;
   padding: 0;
@@ -92,7 +92,7 @@ hr {
   border: none;
   border-top: 2px solid rgb(95, 94, 94);
 }
-.prophilephoto {
+.profilePhoto {
   height: 100px;
   width: 100px;
   position: absolute;

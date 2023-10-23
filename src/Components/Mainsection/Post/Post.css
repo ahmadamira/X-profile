@@ -10,10 +10,10 @@
   margin: 0px;
   padding: 0px;
 }
-.flexdiv {
+.postInnerContainer {
   display: flex;
 }
-.postOwnerphoto {
+.postOwnerPhoto {
   width: 30px;
   height: 30px;
   display: block;
@@ -28,7 +28,7 @@
 .postOwner {
   display: flex;
 }
-.moreDiv {
+.displayMoreDiv {
   display: flex;
   justify-content: space-between;
   text-align: right;

@@ -1,4 +1,4 @@
-.whofollows {
+.whoFollows {
   display: flex;
   margin-left: 30px;
 }
@@ -11,7 +11,7 @@
   width: 100%;
   color: white;
 }
-.followlogo {
+.followLogo {
   width: 40px;
   height: 40px;
   display: block;
@@ -21,7 +21,7 @@
   margin-bottom: 20px;
   border-radius: 50%;
 }
-.headingfollow {
+.headingFollow {
   display: flex;
   justify-content: space-between;
 }
