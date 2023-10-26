@@ -1,0 +1,8 @@
+.treandsForYouHeader {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.treandsForYouContainer {
+  margin-bottom: 20px;
+}
